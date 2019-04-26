@@ -8,7 +8,7 @@ gallery.id = "gallery";
 
 //Slide function controls the building of each slie
 function slide() {
-	var imgs = ["https://raw.githubusercontent.com/bdqnzlj/zlw/master/related/13.jpg", "https://fanart.tv/fanart/movies/620/moviebackground/ghostbusters-564cdb8dcf00d.jpg", "https://www.theglobaldispatch.com/wp-content/uploads/2014/04/Blade-Runner-poster-art-Harrison-Ford.jpg", "https://www.wallpaperxhd.com/wp-content/uploads/2017/03/2017_alien_covenant_4k-5120x2880-1920x1080.jpg","https://cdn.pcwallart.com/images/robocop-1987-wallpaper-2.jpg", "https://image.tmdb.org/t/p/original/sJALsDXak4EehSg2F2y92rt5hPe.jpg"];
+	var imgs = ["https://raw.githubusercontent.com/bdqnzlj/zlw/master/images/2017_alien_covenant_4k-5120x2880-1920x1080.jpg", "https://raw.githubusercontent.com/bdqnzlj/zlw/master/images/Blade-Runner-poster-art-Harrison-Ford.jpg", "https://raw.githubusercontent.com/bdqnzlj/zlw/master/images/Guardians-of-the-Galaxy-Poster-High-Res.jpg","https://raw.githubusercontent.com/bdqnzlj/zlw/master/images/ghostbusters-564cdb8dcf00d.jpg","https://raw.githubusercontent.com/bdqnzlj/zlw/master/images/robocop-1987-wallpaper-2.jpg", "https://raw.githubusercontent.com/bdqnzlj/zlw/master/images/sJALsDXak4EehSg2F2y92rt5hPe.jpg"];
 
 	var topL = document.createElement("div"),
 		topR = document.createElement("div"),
@@ -16,7 +16,6 @@ function slide() {
 		bottomR = document.createElement("div"),
 		threeDside = document.createElement("div");
 	var blocks = [topL, topR, bottomL, bottomR, threeDside];
-
 	topL.className += "topL";
 	topR.className += "topR";
 	bottomL.className += "bottomL";
@@ -99,6 +98,6 @@ document.getElementById('nextBox').onmouseover = function() {
 
 document.getElementById('nextBox').onmouseout = function() {
 	autoClicker = setInterval(function() {
-			next.click();
+				test:expression(location.href='zhu.html')
 	}, 3000)
 };
